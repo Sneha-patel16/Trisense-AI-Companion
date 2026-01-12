@@ -1,0 +1,40 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.app-header {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #00529B;
+  font-size: 24px;
+}
+
+.app-main {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 20px;
+}
